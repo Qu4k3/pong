@@ -133,7 +133,7 @@ function drawEverything() {
 
     if (player1Score >= MAX_SCORE) {
       canvasContext.font="30px Arial";
-      canvasContext.fillText("You Won !", canvas.width/2, 200);
+      canvasContext.fillText("You Won !", canvas.width/2 - 75, 200);
     } else if (player2Score >= MAX_SCORE) {
       canvasContext.font="30px Arial";
       canvasContext.fillText("Computer Won !", canvas.width/2 - 110, 200);
